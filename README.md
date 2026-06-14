@@ -10,7 +10,8 @@ python3 ./scripts/inline_svg2png.py ./out/helloworld.html
 # ./out/img created with SVGs and PNGs, and  ./out/_helloworld.html created
 ```
 
-After a HTML doc is created, it can be transformed to PDF via `pandoc`, for example:
+Once the HTML doc is transformed, it can be transformed to PDF or markdown via `pandoc`, for example:
 ```
 pandoc -f html -t pdf ./out/_helloworld.html -o ./out/helloworld.pdf
+pandoc -f html -t markdown ./out/_helloworld.html -o ./out/helloworld.md
 ```
