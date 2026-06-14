@@ -1,4 +1,4 @@
-= Inline SVG to PNG
+# Inline SVG to PNG
 
 This tool is created because for most HTML to PDF tools([ref SE discussion](https://unix.stackexchange.com/questions/533886/is-there-a-command-line-tool-for-converting-html-files-to-pdf)), they don't support SVG.
 
